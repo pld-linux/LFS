@@ -7,7 +7,7 @@ License:	distributable
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/lfs/%{name}.html.tar.gz
 # Source0-md5:	b4aa81ba612bbb0ca0ec86bb17229145
-URL:		http://www.tldp.org/LDP/lfs/%{name}/index.html
+URL:		http://www.tldp.org/LDP/lfs/LFS/index.html
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
