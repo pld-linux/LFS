@@ -2,12 +2,13 @@ Summary:	LDP Linux From Scratch
 Summary(pl):	LDP - Linux od podstaw
 Name:		LFS
 Version:	3.3
-Release:	1
+Release:	2
 License:	distributable
 Group:		Documentation
 Source0:	http://www.tldp.org/LDP/lfs/%{name}.html.tar.gz
 # Source0-md5:	b4aa81ba612bbb0ca0ec86bb17229145
 URL:		http://www.tldp.org/LDP/lfs/LFS/index.html
+Requires:	LDP-base
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,7 +33,6 @@ Wiêcej informacji na stronie http://linuxfromscratch.org/.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
-
 cp -ar * $RPM_BUILD_ROOT%{_docdir}/LDP/%{name}
 
 %clean
