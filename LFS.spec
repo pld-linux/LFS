@@ -1,5 +1,5 @@
 Summary:	LDP Linux From Scratch
-Summary(pl.UTF-8):   LDP - Linux od podstaw
+Summary(pl.UTF-8):	LDP - Linux od podstaw
 Name:		LFS
 Version:	3.3
 Release:	2
