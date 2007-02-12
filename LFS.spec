@@ -1,5 +1,5 @@
 Summary:	LDP Linux From Scratch
-Summary(pl):	LDP - Linux od podstaw
+Summary(pl.UTF-8):   LDP - Linux od podstaw
 Name:		LFS
 Version:	3.3
 Release:	2
@@ -20,12 +20,12 @@ software that are needed.
 
 More information can be found at http://linuxfromscratch.org/.
 
-%description -l pl
-Ten dokument wywodzi siê z Linux-From-Scratch-HOWTO, opisuje proces
-tworzenia w³asnego systemu linuksowego bazuj±c na zainstalowanej ju¿
-dystrybucji Linuksa, u¿ywaj±c jedynie ¼róde³ potrzebnych programów.
+%description -l pl.UTF-8
+Ten dokument wywodzi siÄ™ z Linux-From-Scratch-HOWTO, opisuje proces
+tworzenia wÅ‚asnego systemu linuksowego bazujÄ…c na zainstalowanej juÅ¼
+dystrybucji Linuksa, uÅ¼ywajÄ…c jedynie ÅºrÃ³deÅ‚ potrzebnych programÃ³w.
 
-Wiêcej informacji na stronie http://linuxfromscratch.org/.
+WiÄ™cej informacji na stronie http://linuxfromscratch.org/.
 
 %prep
 %setup -q
